@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single-digit numbers.
+ * main - prints all possible different combinations of two digits.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num;
-
-	for (num = 0; num <= 89; num++)
+	for (num = 01; num <= 89; num++)
 	{
 		putchar((num % 90) + '0');
 		if (num == 89)
