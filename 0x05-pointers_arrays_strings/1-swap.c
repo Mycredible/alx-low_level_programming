@@ -2,7 +2,9 @@
 
 /**
  * swap_int - function that swaps the values of two integers.
- * Description: 'swap value for int 'a' and 'b''.
+ * @a: first number
+ * @b: second number
+ *
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
@@ -13,3 +15,4 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = n;
 }
+
