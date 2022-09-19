@@ -3,12 +3,13 @@
 /**
  * _strlen - a function that returns the length of a string.
  * @s: char input
+ * @p1: char variable
  * Return: Always 0.
  */
 int _strlen(char *s)
 {
 	int i = 1, sum = 0;
-	char p1 = s[0];
+	char pl = s[0];
 
 	while (pl != '\0')
 	{
